@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-scrapyd-api = "==2.1.2"
+requests = "==2.18.4"
+scrapy-djangoitem = "==1.1.1"
+scrapyd = "==1.2.0"
+Django = "==2.0.12"
+Scrapy = "==1.5.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

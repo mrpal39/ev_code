@@ -1,0 +1,18 @@
+[
+{"title": ["<div class=\"item\"><a href=\"/grids/g/activities/\" 
+title=\"Those packages allow users to trace actions made within the 
+application.\">Activities</a><br><a href=\"/grids/g/admin-interface/\"
+ title=\"Apps related to the django admin interface.\">Admin interface</
+ a><br><a href=\"/grids/g/analytics/\" title=\"Apps for site analytics.\
+ ">Analytics</a><br><a href=\"/grids/g/anti-spam/\" title=\"This grid con
+ tains apps which reduce spam.\">Anti spam</a><br><a href=\"/grids/g/api/
+ \" title=\"All packages for exposing APIs of your Django models.\">API C
+ reation</a><br><a href=\"/grids/g/asset-managers/\" title=\"Asset manage
+ rs for combining/compressing JavaScript/CSS and for versioning your media f
+ iles.\">Asset Managers</a><br><a href=\"/grids/g/authentication/\" title=\"T
+ his is a grid of all packages for user authentication.\">Authentication</a><br
+ ></div>"], 
+ "description": ["<a href=\"/grids/g/activities/\" t
+ itle=\"Those packages allow users to trace actions made within the application.
+ \">Activities</a>"]}
+]

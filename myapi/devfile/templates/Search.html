@@ -1,0 +1,30 @@
+{% extends "base.html" %} 
+{% load static %}
+
+ {% block content%}
+
+ <form method="get">
+  {{form.as_p}}
+
+  <input type="submit" value="Search">
+</form>
+ {% for search in search %}
+
+
+ <div class="card bg-dark text-white">   
+      <div class="card-body">
+        
+      <h5 class="card-title">{{search.homepage}}</h5>
+      <h4 class="card-title">{{search.licenses}}</h4>
+      <h6 class="card-title">{{search.repository_url}}</h6>
+      <h6 class="card-title">{{search.package_manager_url}}</h6>
+
+      <h6 class="card-subtitle mb-2 text-muted">{{search.description}}</h6>
+      <p class="card-text">{{search.forks}}</p>
+      <a href="{{search.latest_download_url}}" class="card-link">{{search.latest_release_number}}</a>
+      <a href="#" class="card-link">{{search.default_language}}</a>
+    </div>
+  </div>
+ {%endfor%}
+
+{% endblock content%}

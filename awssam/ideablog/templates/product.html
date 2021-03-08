@@ -1,0 +1,15 @@
+{% extends 'base.html'%} 
+
+ {% block content %}
+  this is  product pages <p>work on on the  ways </p>
+
+<form method="POST">
+	{% csrf_token %}
+	{{form.as_p}}
+
+<input type="submit" name="Save"/>
+
+</form>
+
+
+{% endblock content %}

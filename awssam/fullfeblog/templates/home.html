@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% load static %} {% load blog_tags %}
+
+{% block title%}
+{% endblock %}
+
+{% if query %}
+{% endwith %}
+
+
+{% with results.count as total_results %}
+ {{ total_results }} result{{ total_results|pluralize }}
+{% endwith %}
+
+{% block content%}
+{% show_latest_posts 3 %}
+{% endblock content%}

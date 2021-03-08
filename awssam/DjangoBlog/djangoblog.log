@@ -1,0 +1,5 @@
+[2021-02-01 15:51:47,427] INFO [django.utils.autoreload.run_with_reloader:612 autoreload] Watching for file changes with StatReloader
+[2021-02-01 15:55:35,944] INFO [django.utils.autoreload.run_with_reloader:612 autoreload] Watching for file changes with StatReloader
+[2021-02-19 11:28:40,703] INFO [django.utils.autoreload.run_with_reloader:612 autoreload] Watching for file changes with StatReloader
+[2021-02-19 11:31:49,756] INFO [django.utils.autoreload.trigger_reload:236 autoreload] /home/rudi/dev/awssam/DjangoBlog/DjangoBlog/settings.py changed, reloading.
+[2021-02-19 11:31:52,150] INFO [django.utils.autoreload.run_with_reloader:612 autoreload] Watching for file changes with StatReloader

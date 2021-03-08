@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<form method="POST"  name="email" >
+    {% csrf_token %}  
+
+{{forms}}
+    <!-- <input type="email" name="email" placeholder="you email..." required="required"/> -->
+    <input type="submit" value="join waitlist"/>
+    
+</form>
+{% endblock %}

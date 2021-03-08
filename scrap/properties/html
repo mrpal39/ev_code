@@ -1,0 +1,30 @@
+
+scrapy crawl basic
+scrapy crawl basic -o items.json
+scrapy crawl basic -o items.csv
+scrapy crawl basic -o items.jl
+scrapy crawl basic -o items.xml
+
+//*[@id="core-api"]
+
+/html/body/div[2]/div[2]
+//*[@id="core-api"]//*[@id="core-api"]//*[@id="core-api"]
+//*[@id="site-main"]/div/article/section/p
+//*[@id="core-api"]
+/html/body/div[2]/div[2]/h1
+//*[@id="site-main"]/div/article/section/div[1]
+
+//*[@id="site-main"]/div/article/section/div[1]
+
+/html/body/div/main/div/article/section/div[1]
+
+
+//*[@id="check-for-an-existing-ssh-key"]
+
+
+
+
+scrapy settings --get CONCURRENT_REQUESTS
+
+scrapy settings --get CONCURRENT_REQUESTS -s CONCURRENT_REQUESTS=19
+19scrapy shell -s CONCURRENT_REQUESTS=19

@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<!-- {% for entry in data %}
+<br>    {{entry}}
+{% endfor %} -->
+<form action="fulltext" method="post">
+    {% csrf_token %}  
+
+   {{forms}}
+    <input type="submit" value="OK">
+</form>
+{% endblock %}

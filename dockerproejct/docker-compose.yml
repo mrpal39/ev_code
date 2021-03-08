@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  app:cd
+
+  cd
+    image: dockerproejct
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000

@@ -1,0 +1,37 @@
+{% extends 'base.html'%} 
+
+ {% block content %}
+  this is  contact pages <p>work on on the  ways </p>
+
+<hr>
+
+
+<table class="table">
+<h1>hellothis is a table</h1>>
+	{%  for i in feed %}
+	    <th>
+	    	<tb>this the ttile of post <h1>{{i.title}}</h1></tb><br>
+	    	<tb>overview of a post what u want to read <h1>{{i.overview}}</h1></tb><br>
+        </th>
+
+
+	{% endfor %}
+	
+
+</table>
+{%  for i in feed %}
+<div class="card" style="width: 18rem;">
+  <img src={{i.thumbnail}} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{i.title}}</h5>
+    <p class="card-text">{{i.description}}</p>
+    <p class="card-text">{{i.overview}}</p>
+
+    <a href="https://www.youtube.com/watch?v=7a23TbUXfWE&ab_channel=DennisIvy class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+{% endfor %}
+
+
+{% endblock content %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %} 
+{% load static %}
+
+ {% block content%}
+
+ {% for form in form %}
+
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{form.name}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{form.project_count}}</h6>
+      <p class="card-text">{{form.description}}</p>
+      <a href="{{form.homepage}}" class="card-link">{{form.color}}</a>
+      <a href="#" class="card-link">{{form.default_language}}</a>
+    </div>
+  </div>
+ {%endfor%}
+
+{% endblock content%}

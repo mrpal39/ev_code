@@ -1,0 +1,59 @@
+{% extends 'base.html'%} 
+
+ {% block content %}
+            {% csrf_token %}
+ <section>
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="{% url 'login'%}" role="button">login</a>
+</div>
+
+
+{%  for m in feed %}
+<div class="card text-center">
+  <div class="card-header">
+    {{m.overview}}
+  </div>
+  <div class="card-body">
+                <h1><a href="{% url 'p' object.id %}"><i class="fa fa-bookmark-o">{{m.title}}</i></a></h1>
+    <p class="card-text"></p>
+    <a href="{{m.description}}" class="btn btn-primary">{{m.description}}</a>
+  </div>
+  <div class="card-footer text-muted">
+   {{m.timestamp}}
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{m.title}}</h5>
+    <p class="card-text">{{m.content}}</p>
+    <p class="card-text"><small class="text-muted">{{m.timestamp}}</small></p>
+  </div>
+  <img src="" class="card-img-bottom" alt="...">
+</div>
+<br>
+
+
+{% endfor %}
+
+
+{%  for n in fore %}
+<div class="card" style="width: 18rem;"><br>
+  <img src={{i.thumbnail}} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{n.title}}</h5>
+    <p class="card-text">{{n.description}}</p>
+    <p class="card-text">{{n.price}}</p>
+
+    <a href=""btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</section>
+
+
+
+{% endfor %}
+{% endblock content %}

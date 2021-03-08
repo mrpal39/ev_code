@@ -1,0 +1,36 @@
+{% extends "base.html" %} 
+{% load static %}
+
+ {% block content%}
+
+ <form method="POST">
+  {{form.as_p}}
+
+  <input type="submit" value="Search">
+</form>
+
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Example file input</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      <input type="submit" value="Search">
+
+  </div>
+</form>
+<!-- 
+
+ {% for api in api %}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{api.language}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{api.description}}</h6> 
+       <p class="card-text">{{api.latest_release_published_at}}</p>
+      <a href="{{api.homepage}}" class="card-link">{{api.forks}}</a>
+      <a href="#" class="card-link">{{api.language}}</a> 
+    </div>
+  </div>
+ {%endfor%} -->
+ {% endblock content%}

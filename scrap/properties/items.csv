@@ -1,0 +1,18 @@
+address,date,description,image_urls,images,location,price,project,server,spider,title,url
+,,"<a href=""/grids/g/activities/"" title=""Those packages allow users
+ to trace actions made within the application."">Activ
+ ities</a>",,,,,,,,"<div class=""item""><a href=""/grids/
+ g/activities/"" title=""Those packages allow users to trace
+  actions made within the application."">Activities</a><br><a
+   href=""/grids/g/admin-interface/"" title=""Apps related to
+    the django admin interface."">Admin interface</a><br><a hre
+    f=""/grids/g/analytics/"" title=""Apps for site analytics.""
+    >Analytics</a><br><a href=""/grids/g/anti-spam/"" title=""This 
+    grid contains apps which reduce spam."">Anti spam</a><br><a href
+    =""/grids/g/api/"" title=""All packages for exposing APIs of your 
+    Django models."">API Creation</a><br><a href=""/grids/g/asset-manage
+    rs/"" title=""Asset managers for combining/compressing JavaScript/CSS a
+    nd for versioning your media files."">Asset Managers</a><br><a href=""/grid
+    s/g/authentication/"" title=""This is a grid of all packages for user authe
+    ntication."">Authentication</a><br></div>",
+

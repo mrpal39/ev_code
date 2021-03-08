@@ -1,0 +1,2 @@
+from oauth2_provider.views.generic import ProtectedResourceView
+from django.http import HttpResponse
